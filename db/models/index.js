@@ -52,10 +52,6 @@ const Review = db.define(
       type: Sequelize.INTEGER,
       allowNull: false
     },
-    product_id: {
-      type: Sequelize.INTEGER,
-      allowNull: false
-    },
     verified: {
       type: Sequelize.BOOLEAN,
       allowNull: false

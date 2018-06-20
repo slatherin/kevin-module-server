@@ -10,7 +10,8 @@ const ReviewModel = {
     )
     .then(data => callback(null, data))
     .catch(err => callback(err, null));
-  }
+  },
+  post: () => {}
 }
 
 module.exports = {
