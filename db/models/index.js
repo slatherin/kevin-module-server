@@ -13,9 +13,6 @@ const Product = db.define(
       type: Sequelize.STRING,
       allowNull: false
     }
-  },
-  {
-    timestamps: false
   }
 );
 
@@ -56,9 +53,6 @@ const Review = db.define(
       type: Sequelize.BOOLEAN,
       allowNull: false
     }
-  },
-  {
-    timestamps: false
   }
 );
 
