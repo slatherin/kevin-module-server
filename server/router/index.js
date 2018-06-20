@@ -1,9 +1,10 @@
 const Router = require('express').Router();
 const { ReviewCtrl } = require('../controllers/reviewController.js');
+const { ProductCtrl } = require('../controllers/productController.js');
 
-Router.route('/reviews/:search').get(ReviewCtrl.getById);
-Router.route('/reviews/product/:name').get(ReviewCtrl.getByName);  
+Router.get('/reviews/:search', ReviewCtrl.get);
+Router.get('/reviews/product/:name', ProductCtrl.get);  
 
 module.exports = {
-  Router
+  Router: Router
 };

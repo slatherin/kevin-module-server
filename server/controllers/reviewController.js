@@ -1,22 +1,16 @@
-const { Product, Review } = require("../../db/models");
+const { ReviewModel } = require("../models/reviewModels.js")
 
 const ReviewCtrl = {
-  getById: (req, res) => {
+  get: (req, res) => {
     let query = {};
     query.product_id = req.params.search;
-    Review.findAll({ where: query, order: [["helpful_count", "DESC"]] })
-      .then(data => res.status(200).send(data))
-      .catch(err => res.status(404).send(err));
-  },
-  getByName: (req, res) => {
-    let query = {};
-    query.name = req.params.name;
-    Product.findAll({ where: query })
-      .then(data => res.status(200).send(data))
-      .catch(err => res.status(404).send(err));
+    ReviewModel.get(query, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(200);
+    })
   }
 };
 
 module.exports = {
-  ReviewCtrl
+  ReviewCtrl: ReviewCtrl
 };
