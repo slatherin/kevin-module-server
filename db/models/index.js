@@ -64,6 +64,7 @@ db.sync({ force: false })
   .catch(err => console.log("Error creating tables", err));
 
 module.exports = {
+  db, 
   Product,
   Review
 };
