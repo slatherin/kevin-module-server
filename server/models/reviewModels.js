@@ -27,14 +27,16 @@ const ReviewModel = {
       (DEFAULT, '${params.customer_name}', ${params.rating}, '${params.title}', trim(regexp_replace(to_char(NOW(), 'Month'), '\\s+', ' ', 'g')) || ' ' || to_char(NOW(), 'DD') || ', ' || to_char(NOW(), 'YYYY'), '${params.review}', '${params.helpful_count}', '${params.productId}', '${params.verified}', NOW(), NOW());
     `)
     .spread((data) => {
-      console.log('query successful');
+      console.log('insert review successful');
       callback(null, data[1]);
     })
     .catch(err => {
-      console.log('error with query,', err);
+      console.log('error with inserting review,', err);
       callback(err, null);
     });
-  }
+  },
+
+  
 }
 
 module.exports = {

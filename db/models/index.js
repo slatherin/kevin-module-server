@@ -7,7 +7,7 @@ const Product = db.define(
     id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
-      allowNull: false
+      autoIncrement: true
     },
     name: {
       type: Sequelize.STRING,
@@ -23,7 +23,6 @@ const Review = db.define(
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
-      // allowNull: false,
     },
     customer_name: {
       type: Sequelize.STRING,
