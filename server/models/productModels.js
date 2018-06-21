@@ -1,11 +1,11 @@
 const { db } = require("../../db/models");
 
 const ProductModel = {
-  get: (query, callback) => {
+  get: (params, callback) => {
     db.query(`
       SELECT * 
       FROM products
-      WHERE name = '${query.name}';
+      WHERE name = '${params.name}';
     `)
     .then(data => callback(null, data[0]))
     .catch(err => callback(err, null));

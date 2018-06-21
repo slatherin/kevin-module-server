@@ -2,25 +2,25 @@ const { ReviewModel } = require("../models/reviewModels.js")
 
 const ReviewCtrl = {
   get: (req, res) => {
-    let query = { productId: req.params.search };
-    ReviewModel.get(query, (err, data) => {
+    let params = { productId: req.params.search };
+    ReviewModel.get(params, (err, data) => {
       (err) && res.send(err).status(400);
       res.send(data).status(200);
     })
   },
   post: (req, res) => {
-    let query = { 
-      customer_name: req.params.customer,
-      rating: req.params.rating,
+    let params = { 
+      customer_name: req.params.customer_name || 'Amazon Customer',
+      rating: Number(req.params.rating),
       title: req.params.title,
-      date: req.params.date,
       review: req.params.review,
-      helpful_count: req.params.helpful,
-      verified:  req.params.verified
+      helpful_count: Number(req.params.helpful_count),
+      productId: Number(req.params.productId),
+      verified:  req.params.verified === 'true' ? true : false
     };
-    ReviewModel.post(query, (err, data) => {
+    ReviewModel.post(params, (err, data) => {
       (err) && res.send(err).status(400);
-      res.send(data).status(200);
+      res.send(data).status(201);
     })
   }
 };
