@@ -8,20 +8,43 @@ const ReviewCtrl = {
       res.send(data).status(200);
     })
   },
+
   post: (req, res) => {
-    let params = { 
-      customer_name: req.params.customer_name || 'Amazon Customer',
-      rating: Number(req.params.rating),
-      title: req.params.title,
-      review: req.params.review,
-      helpful_count: Number(req.params.helpful_count),
-      productId: Number(req.params.productId),
-      verified:  req.params.verified === 'true' ? true : false
+    let body = { 
+      customer_name: req.body.customer_name || 'Amazon Customer',
+      rating: Number(req.body.rating),
+      title: req.body.title,
+      review: req.body.review,
+      helpful_count: Number(req.body.helpful_count),
+      productId: Number(req.body.productId),
+      verified:  req.body.verified === 'true' ? true : false
     };
-    ReviewModel.post(params, (err, data) => {
+    ReviewModel.post(body, (err, data) => {
       (err) && res.send(err).status(400);
       res.send(data).status(201);
     })
+  },
+
+  put: (req, res) => {
+    let body = { 
+      id: req.params.id, 
+      customer_name: req.body.customer_name,
+      rating: Number(req.body.rating),
+      date: req.body.date,
+      title: req.body.title,
+      review: req.body.review,
+      helpful_count: Number(req.body.helpful_count),
+      productId: Number(req.body.productId),
+      verified:  req.body.verified === 'true' ? true : false
+    };
+    ReviewModel.put (body, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(201);
+    })
+  },
+
+  delete: (req, res) => {
+    
   }
 };
 

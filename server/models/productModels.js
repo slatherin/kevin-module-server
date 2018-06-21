@@ -14,7 +14,7 @@ const ProductModel = {
   post: (name, callback) => {
     db.query(`
       INSERT INTO	products
-      (id, name,"createdAt", "updatedAt") 
+      (id, name, "createdAt", "updatedAt") 
       VALUES 
       (DEFAULT, '${name}', NOW(), NOW());
     `)
