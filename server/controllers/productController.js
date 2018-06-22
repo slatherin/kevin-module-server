@@ -19,11 +19,18 @@ const ProductCtrl = {
   },
 
   put: (req, res) => {
-
+    let body = {
+      id: req.params.id,
+      name: req.body.name
+    }
+    ProductModel.put(body, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(201);
+    })
   },
 
   delete: (req, res) => {
-    
+
   }
 };
 

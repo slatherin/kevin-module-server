@@ -49,7 +49,7 @@ const ReviewModel = {
         verified=${body.verified}, 
         "updatedAt"=NOW(), 
         "productId"=${body.productId}
-      WHERE id=${body.id}
+      WHERE id=${body.id};
     `)    
     .spread((data) => {
       console.log('update review successful');
