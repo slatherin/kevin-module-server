@@ -29,15 +29,16 @@ const ReviewCtrl = {
     let body = { 
       id: req.params.id, 
       customer_name: req.body.customer_name,
-      rating: Number(req.body.rating),
+      rating: req.body.rating || -1,
       date: req.body.date,
       title: req.body.title,
       review: req.body.review,
-      helpful_count: Number(req.body.helpful_count),
-      productId: Number(req.body.productId),
-      verified:  req.body.verified === 'true' ? true : false
+      helpful_count: req.body.helpful_count || -1,
+      productId: req.body.productId || -1,
+      verified: req.body.verified ? (req.body.verified === 'true' ? true : false) : undefined
     };
     ReviewModel.put (body, (err, data) => {
+      console.log(data);
       (err) && res.send(err).status(400);
       res.send(data).status(200);
     })

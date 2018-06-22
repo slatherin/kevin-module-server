@@ -23,6 +23,7 @@ const ProductCtrl = {
       id: req.params.id,
       name: req.body.name
     }
+    console.log(body);
     ProductModel.put(body, (err, data) => {
       (err) && res.send(err).status(400);
       res.send(data).status(201);

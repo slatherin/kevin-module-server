@@ -29,21 +29,20 @@ const ProductModel = {
   },
 
   put: (body, callback) => {
-    db.query(`
-      UPDATE products
-      SET 
-        name='${body.name}', 
-        "updatedAt"=NOW()
-      WHERE id=${body.id};
-    `)    
-    .spread((data) => {
-      console.log('update review successful');
-      callback(null, data[1]);
-    })
-    .catch(err => {
-      console.log('error with updating review,', err);
-      callback(err, null);
-    });
+    if (body.name) {
+      db.query(`UPDATE products SET name='${body.name}', "updatedAt" = NOW() WHERE id=${body.id};`)    
+      .spread((data) => {
+        console.log('update review successful');
+        callback(null, 'product updated');
+      })
+      .catch(err => {
+        console.log('error with updating review,', err);
+        callback(err, null);
+      });
+    } else {
+      callback(null, 'did not update');
+    }
+
   },
 
   delete: (id, callback) => {

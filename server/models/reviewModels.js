@@ -37,23 +37,33 @@ const ReviewModel = {
   },
 
   put: (body, callback) => {
+    console.log(body);
     db.query(`
-      UPDATE reviews
-      SET 
-        customer_name='${body.customer_name}', 
-        rating=${body.rating}, 
-        title='${body.title}', 
-        date='${body.date}', 
-        review='${body.review}', 
-        helpful_count=${body.helpful_count}, 
-        verified=${body.verified}, 
-        "updatedAt"=NOW(), 
-        "productId"=${body.productId}
-      WHERE id=${body.id};
-    `)    
-    .spread((data) => {
-      console.log('update review successful');
-      callback(null, data[1]);
+      UPDATE reviews SET customer_name = '${body.customer_name}', "updatedAt"=NOW() WHERE id = ${body.id} and customer_name <> '${body.customer_name}' and '${body.customer_name}' <> 'undefined';
+      UPDATE reviews SET rating = ${body.rating}, "updatedAt"=NOW() WHERE id = ${body.id} and rating <> ${body.rating} and ${body.rating}<> -1;
+      UPDATE reviews SET title = '${body.title}', "updatedAt"=NOW() WHERE id = ${body.id} and title <> '${body.title}' and '${body.title}' <> 'undefined';
+      UPDATE reviews SET date = '${body.date}', "updatedAt"=NOW() WHERE id = ${body.id} and date <> '${body.date}' and '${body.date}' <> 'undefined';
+      UPDATE reviews SET review = '${body.review}', "updatedAt"=NOW() WHERE id = ${body.id} and review <> '${body.review}' and '${body.review}' <> 'undefined';
+      UPDATE reviews SET helpful_count = ${body.helpful_count}, "updatedAt"=NOW() WHERE id = ${body.id} and helpful_count <> ${body.helpful_count} and ${body.helpful_count} <> -1;
+      UPDATE reviews SET "productId" = ${body.productId}, "updatedAt"=NOW() WHERE id = ${body.id} and "productId" <> ${body.productId} and ${body.productId} <> -1;
+    `)
+    .spread(() => {
+      console.log('update reviews successful');
+      if (body.verified) {
+        db.query(`
+          UPDATE reviews SET verified = ${body.verified}, "updatedAt"=NOW() WHERE id = ${body.id} and verified <> ${body.verified};
+        `)
+        .spread(() => {
+          console.log('update reviews successful');
+          callback(null, 'update with verified successful');
+        })
+        .catch(err => {
+          console.log('error with updating verified,', err);
+          callback(err, null);
+        });
+      } else {
+        callback(null, 'update successful');
+      }
     })
     .catch(err => {
       console.log('error with updating review,', err);
