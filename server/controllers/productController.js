@@ -8,6 +8,33 @@ const ProductCtrl = {
       (err) && res.send(err).status(400);
       res.send(data).status(200);
     })
+  },
+
+  post: (req, res) => {
+    let name = req.params.name;
+    ProductModel.post(name, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(201);
+    })
+  },
+
+  put: (req, res) => {
+    let body = {
+      id: req.params.id,
+      name: req.body.name
+    }
+    console.log(body);
+    ProductModel.put(body, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(201);
+    })
+  },
+
+  delete: (req, res) => {
+    ProductModel.delete(req.params.id, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(200);
+    })
   }
 };
 

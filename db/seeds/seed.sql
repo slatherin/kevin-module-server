@@ -1,224 +1,229 @@
-INSERT INTO products (id, name) VALUES (1, 'Regency Edition Leather Loveseat');
-INSERT INTO products (id, name) VALUES (2, 'SuperSleep MegaFoam King Size Comfort Mattress');
-INSERT INTO products (id, name) VALUES (3, 'Playa Furniture Premium Folding Table');
-INSERT INTO products (id, name) VALUES (4, 'Light Up Globe Color, 12-Inch');
-INSERT INTO products (id, name) VALUES (5, 'Regency Edition Sustainable Wood Bookshelf');
-INSERT INTO products (id, name) VALUES (6, 'Regency Edition Sustainable Wood Dining Chair');
-INSERT INTO products (id, name) VALUES (7, 'Regency Edition Sustainable Wood Dining Table');
-INSERT INTO products (id, name) VALUES (8, 'Xtreme Furniture King Size Waterbed');
-INSERT INTO products (id, name) VALUES (9, 'Bean Bag Chair, Funky Design, Large');
-INSERT INTO products (id, name) VALUES (10, 'Modern Design Nightstand with Drawer');
-INSERT INTO products (id, name) VALUES (11, 'Architect Desk Lamp, Chrome with LED');
-INSERT INTO products (id, name) VALUES (12, 'Rustic Wall Mirror, Wooden Frame');
-INSERT INTO products (id, name) VALUES (13, 'Luxury Cotton Sheets 120 Thread Count Blue');
-INSERT INTO products (id, name) VALUES (14, 'Extra Thick Quilted Comforter, Cotton Fill White');
-INSERT INTO products (id, name) VALUES (15, 'Bob''s Pillows Memory Foam Pillow');
-INSERT INTO products (id, name) VALUES (16, 'PREMIUM HIGH QUALITY Plastic Fern, Green');
-INSERT INTO products (id, name) VALUES (17, 'Groovy Lava Lamp, 12 inch Red');
-INSERT INTO products (id, name) VALUES (18, 'Groovy Shag Rug, 100% Polyester, 72 x 48 in');
-INSERT INTO products (id, name) VALUES (19, 'Groovy Disco Ball 20 inch Real Glass');
-INSERT INTO products (id, name) VALUES (20, 'Strobe Light LED Lights w/ Remote HIGH POWER');
-INSERT INTO products (id, name) VALUES (21, 'Classic Vintage Style Pinball Machine');
-INSERT INTO products (id, name) VALUES (22, 'Xtreme Olympic Rules Ping Pong Table');
-INSERT INTO products (id, name) VALUES (23, 'Antique Style Distressed Oak Dresser');
-INSERT INTO products (id, name) VALUES (24, 'Antique Style Distressed Grandfather Clock');
-INSERT INTO products (id, name) VALUES (25, 'Xtreme Olympic Rules Foosball Table');
-INSERT INTO products (id, name) VALUES (26, 'Ergonomic Rolling Executive Office Chair');
-INSERT INTO products (id, name) VALUES (27, 'Cinnamon Scented Candle, Large');
-INSERT INTO products (id, name) VALUES (28, 'Blue Throw Pillow, 16 X 22 in, 100% Cotton');
-INSERT INTO products (id, name) VALUES (29, 'SuperChef Stainless Steel Garlic Press');
-INSERT INTO products (id, name) VALUES (30, 'SuperChef Countertop Kitchen Timer');
-INSERT INTO products (id, name) VALUES (31, 'PicnicTime Premium Assorted Plastic Cutlery');
-INSERT INTO products (id, name) VALUES (32, 'SuperChef Stainless Steel Refrigerator');
-INSERT INTO products (id, name) VALUES (33, 'PicnicTime Premium Sporks');
-INSERT INTO products (id, name) VALUES (34, 'MegaMeal Glass Salt & Pepper Shakers, 2 ct');
-INSERT INTO products (id, name) VALUES (35, 'PicnicTime Moist Toilettes');
-INSERT INTO products (id, name) VALUES (36, 'MegaMeal Round Wood Toothpicks');
-INSERT INTO products (id, name) VALUES (37, 'SuperChef 1200W Microwave, with Preset Cooking Options');
-INSERT INTO products (id, name) VALUES (38, 'SuperChef Blender with Glass Jar and Smoothie Setting');
-INSERT INTO products (id, name) VALUES (39, 'SuperChef Indoor Grill and Electric Griddle ');
-INSERT INTO products (id, name) VALUES (40, 'PicnicTime Flame Resistant Oven Mittens');
-INSERT INTO products (id, name) VALUES (41, 'HomeAdvantage 100% Organic Dish Soap');
-INSERT INTO products (id, name) VALUES (42, 'PicnicTime Ceramic Meal Cups');
-INSERT INTO products (id, name) VALUES (43, 'HomeAdvantage Ceramic Coffee Mug');
-INSERT INTO products (id, name) VALUES (44, 'HomeAdvantage Travel Thermos');
-INSERT INTO products (id, name) VALUES (45, 'HomeAdvantage 7 cup Rice Cooker');
-INSERT INTO products (id, name) VALUES (46, 'HomeAdvantage Stainless Steel Spatula');
-INSERT INTO products (id, name) VALUES (47, 'SuperChef Premium Coffee Maker 2 cup brewer');
-INSERT INTO products (id, name) VALUES (48, 'HomeAdvantage Plastic Sealable Meal Prep Container');
-INSERT INTO products (id, name) VALUES (49, 'HomeAdvantage Lunch Pale');
-INSERT INTO products (id, name) VALUES (50, 'HomeAdvantage Banana Holder');
-INSERT INTO products (id, name) VALUES (51, 'SuperChef Stainless Wine Corkscrew');
-INSERT INTO products (id, name) VALUES (52, 'PicnicTime Resealable Sandwich Bags');
-INSERT INTO products (id, name) VALUES (53, 'PicnicTime Aluminum Foil Roil, 50ft');
-INSERT INTO products (id, name) VALUES (54, 'PicnicTime Cling Wrap Roil, 50ft');
-INSERT INTO products (id, name) VALUES (55, 'PicnicTime Plastic Sealable Bowl');
-INSERT INTO products (id, name) VALUES (56, 'FreshTaste Broccoliflower');
-INSERT INTO products (id, name) VALUES (57, 'FreshTaste Cheese Wheel');
-INSERT INTO products (id, name) VALUES (58, 'FreshTaste Protein Powder');
-INSERT INTO products (id, name) VALUES (59, 'FreshTaste Plaintain');
-INSERT INTO products (id, name) VALUES (60, 'FreshTaste Unicorn Dust');
-INSERT INTO products (id, name) VALUES (61, 'FreshTaste Oregano');
-INSERT INTO products (id, name) VALUES (62, 'FreshTaste Banana');
-INSERT INTO products (id, name) VALUES (63, 'FreshTaste Premium Apple Juice');
-INSERT INTO products (id, name) VALUES (64, 'HomeAdvantage Rubbing Alcohol');
-INSERT INTO products (id, name) VALUES (65, 'FreshTaste Dietary Supplement');
-INSERT INTO products (id, name) VALUES (66, 'FreshTaste Omega Three Fatty Acid Supplement');
-INSERT INTO products (id, name) VALUES (67, 'FreshTaste Whey Powder');
-INSERT INTO products (id, name) VALUES (68, 'FreshTaste Synthetic Apple');
-INSERT INTO products (id, name) VALUES (69, 'FreshTaste Caffeine Pills ');
-INSERT INTO products (id, name) VALUES (70, 'FreshTaste GMO Milk');
-INSERT INTO products (id, name) VALUES (71, 'FreshTaste Hamster Food');
-INSERT INTO products (id, name) VALUES (72, 'FreshTaste Cheesy Puffs');
-INSERT INTO products (id, name) VALUES (73, 'FreshTaste Organic Unfiltered Water');
-INSERT INTO products (id, name) VALUES (74, 'FreshTaste Edible Forks');
-INSERT INTO products (id, name) VALUES (75, 'FreshTaste Boxed Water, Just Add Water');
-INSERT INTO products (id, name) VALUES (76, 'LawnDisplay Ceramic Garden Gnome');
-INSERT INTO products (id, name) VALUES (77, 'YardPro Riding Mower');
-INSERT INTO products (id, name) VALUES (78, 'YardPro 50ft Hose');
-INSERT INTO products (id, name) VALUES (79, 'LawnDisplay Pink Lawn Flamingo');
-INSERT INTO products (id, name) VALUES (80, 'YardPro Metal Harvesting Sickle');
-INSERT INTO products (id, name) VALUES (81, 'YardPro Chainsaw');
-INSERT INTO products (id, name) VALUES (82, 'YardPro Weed Trimmer');
-INSERT INTO products (id, name) VALUES (83, 'YardPro Oscillating Sprinkler');
-INSERT INTO products (id, name) VALUES (84, 'YardPro Non-Oscillating Sprinkler');
-INSERT INTO products (id, name) VALUES (85, 'LawnDisplay Stone Bird Bath');
-INSERT INTO products (id, name) VALUES (86, 'YardPro BBQ lighter');
-INSERT INTO products (id, name) VALUES (87, 'YardPro Weed Burner');
-INSERT INTO products (id, name) VALUES (88, 'YardPro XL Lawn Chair');
-INSERT INTO products (id, name) VALUES (89, 'LawnDisplay Small Circular Fountain');
-INSERT INTO products (id, name) VALUES (90, 'LawnDisplay Patio Umbrella');
-INSERT INTO products (id, name) VALUES (91, 'LawnDisplay Wood Patio Table');
-INSERT INTO products (id, name) VALUES (92, 'YardPro Jet Hottub');
-INSERT INTO products (id, name) VALUES (93, 'YardPro Solar Panels');
-INSERT INTO products (id, name) VALUES (94, 'LawnDisplay Inflatable Pool');
-INSERT INTO products (id, name) VALUES (95, 'LawnDisplay Succulent Planters');
-INSERT INTO products (id, name) VALUES (96, 'YardPro Pool Floatie');
-INSERT INTO products (id, name) VALUES (97, 'YardPro Pool Noodle');
-INSERT INTO products (id, name) VALUES (98, 'LawnDisplay Rock Enclosure');
-INSERT INTO products (id, name) VALUES (99, 'LawnDisplay Green Astroturf');
-INSERT INTO products (id, name) VALUES (100, 'LawnDisplay Metal Giraffe');
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(1, 'Tomas Wise', 5, 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'January 21, 2018', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.', 10, 1, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(119, 'Henry Arnold',	2, '', 'September 20, 2018', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.',	12,	1,	FALSE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(120, '' , 3,		''		,		'January 9, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo nostrum soluta consequatur, mollitia qui? Illum ex vitae repudiandae esse, provident ab officia aliquam. Inventore sed illum consectetur enim laborum?'		,	1	,	1	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(121, '' , 2,		'Hic odio similique officia temporibus	'	,		'January 19, 2018'		,		'Sit sapiente modi amet ipsam voluptatum dolorem, commodi, temporibus maxime a illo veniam sint sed ad, cumque eius. Ipsum autem necessitatibus maxime.'		,	0	,	1	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(122 ,	'' , 5,		''		,		'October 23, 2018'		,		'Quas hic dolore enim explicabo eos veritatis magni impedit architecto quaerat, esse quibusdam nemo labore beatae saepe sed velit nisi dignissimos qui?'		,	0	,	1	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(123	,	'Patrick Alexander'	,	4	,		''		,		'June 4, 2018'		,		'Dolores ex sed fuga, culpa et harum pariatur vitae maiores molestiae, deleniti itaque, sequi reiciendis illo obcaecati debitis. Iste laudantium officiis a.'		,	0	,	1	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(124, '' , 5,		''		,		'September 28, 2018'		,		'Vel aperiam illo eos reprehenderit laborum, nulla delectus quos at corrupti maxime architecto a, vero odit animi omnis quidem. Quas, quo nobis!'		,	0	,	1	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(2, 'Jasmine Curtis', 5, '',	'February 23, 2018', 'We purchased the SuperSleep King Size Memory Foam Mattress for our 10th guest bedroom. We haven''t actually slept on it but looks comfortable.', 11, 2, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(3, 'Marlon Valdez',	5, 'Love this table', 'March 24, 2018', 'Great folding experience, out of all the folding tables I''ve bought, this one performs best. I''ll be replacing my other tables with these.',	9, 3,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(4, 'Johanna Quinn',	1, '', 'March 26, 2018', 'THE EARTH IS FLAT. RESEARCH #FLATEARTH. #WOKE',	23,	4, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(5, 'Terry Mendez', 4, 'Great', 'April 8, 2018', 'Son loved it.', 21, 4,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(6, 'Oliver Simmons', 5, 'ONLY BUY PRODUCTS MADE FROM FREE RANGE TREES', 'May 5, 2018', 'Quality bookshelf for the price. Wood is sourced directly from free range trees farms.', 4, 5, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(7, 'Gilbert Ramos',	5, 'ONLY BUY PRODUCTS MADE FROM FREE RANGE TREES', 'May 8, 2018', 'Purchased the chairs and table from the Regency Collection for our dinning room. Biggest selling point was the sustainable wood, which is souced from free range tree farms.',	11,	6, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(8, 'Van Santos', 5, 'ONLY BUY PRODUCTS MADE FROM FREE RANGE TREES', 'June 13, 2018', 'Purchased the chairs and table from the Regency Collection for our dinning room. Biggest selling point was the sustainable wood, which is souced from free range tree farms.', 19,	7, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(9, 'Ron Frazier',	4, 'Make sure you have a hose long enough to reach your bedroom', 'July 20, 2018', 'AMAZING BED! This bed has changed the way we sleep everynight. Only complaint was having to fill this up on our upstairs master room. It was hard finding a hose long enough to reach our bedroom on the second floor. The dogs love it!', 16, 8, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(10, 'Stacy Sandoval', 5, '', 'August 15, 2018', 'Great bean bag chairs. My husband purchased two for the kids game room and the kids seem to enjoy them',	13,	9, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(11, 'Bethany Estrada', 5, '', 'August 19, 2018', 'Sleek contemporary night stand. Great addition to our bedroom.', 12, 10, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(12, 'Ruby Evans',	4, '', 'August 23, 2018', 'Perfect desk lamp for a student!',	15,	11,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(13, 'Nora Barker', 1, 'PRODUCT NOT AS DESCRIBED!', 'September 1, 2018', 'BEWARE OF THIS MIRROR. MIRROR CAME WITH DISTORTED GLASS WHEN DESCRIPTION CLEARLY SAYS DISTORTION-FREE. WILL BE RETURNING.', 13, 12, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(14, 'Ollie Moore', 1, '', 'September 10, 2018', 'I had purchased the comforter along with the bed sheets. YOU CALL THIS 120 THEADS? IT FEELS LIKE SAND PAPER AS FAR AS IM CONCERNED.', 9, 13,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(15, 'Henry Arnold',	2, '', 'September 20, 2018', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.',	12,	13,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(16, 'Donnie Mann', 1, '', 'September 24, 2018', 'I had purchased the comforter along with the bed sheets. YOU CALL THIS 120 THEADS? IT FEELS LIKE SAND PAPER AS FAR AS IM CONCERNED.', 11, 14, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(17, 'Kendra Wong', 4, 'Perfect', 'October 8, 2018', 'The perfect regular pillow for a regular man.', 3, 15, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(18, 'Ivan Duncan', 3, 'Disappointed', 'October 13, 2018', 'I found this pillow highly irregular.', 9, 15,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(19, 'Willard Weaver',	3, 'SAFE FOR CATS', 'October 19, 2018', 'MY CAT ATE THIS AND WAS FINE',	2, 16, TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(20, 'Danny Woods', 3, '', 'October 29, 2018', 'Product description mentions not suitable for kids under 5 but my 3 year old is enjoying it.',	10,	16,	TRUE);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(21, 'Tina Phillips'	,	5	,		'Realistic looking'		,		'November 2, 2018'		,		'It wasn''t until the second month of watering it I realized it was a plastic fern.' 		,	1	,	16	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(22	,	'Philip Patterson'	,	4	,		''		,		'November 17, 2018'		,		'One time I stared at this for 3 hours and a little man appeared and told me to invest in Herbalife.'		,	0	,	17	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(23	,	'Gloria Richardson'	,	2	,		'Returning'		,		'December 18, 2018'		,		'Too shaggy'		,	0	,	18	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(24	,	'Marilyn Coleman'	,	5	,		'Exactly what i''ve been looking for'		,		'December 22, 2018'		,		'FANTASTIC PRODUCT. The disco ball is made from REAL glass mirrors, unlike competitors disco balls made with FAKE glass mirrors. THE QUALITY AND CRAFTMANSHIP SHOWS.'		,	5	,	19	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(25	,	'Raymond Harris'	,	1	,		''		,		'December 25, 2018'		,		'I found out the hard way that I have epilepsy.'		,	9	,	20	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(26	,	'Joyce Walker'	,	5	,		''		,		'January 13, 2018'		,		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.'		,	2	,	21	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(27	,	'Robert Martin'	,	5	,		''		,		'January 17, 2018'		,		'Sunt, perspiciatis. Labore rerum fugit blanditiis dicta, doloremque illum id explicabo tempore, repellendus aut nobis magnam qui at quas nisi provident nostrum!'		,	1	,	22	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(28	,	'Wayne Green'	,	4	,		''		,		'January 18, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam voluptatem pariatur quis atque culpa cum soluta sunt esse quae. Doloribus aspernatur quas, eveniet inventore ut veritatis facere aliquam perspiciatis?'		,	0	,	23	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(29	,	'Karen White'	,	3	,		'Lorem ipsum dolor sit amet consectetur adipisicing elit.'		,		'January 20, 2018'		,		'Aliquid adipisci nam impedit commodi itaque magni nostrum doloribus aspernatur praesentium dignissimos recusandae totam illo delectus architecto, voluptatem corrupti. Id, reiciendis blanditiis?'		,	1	,	24	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(30	,	'Janet James'	,	4	,		''		,		'February 4, 2018'		,		'Sunt minus hic libero eaque, officia mollitia consequatur, eius, ab nobis excepturi saepe qui voluptate adipisci aut aperiam molestiae quos amet nihil!'		,	0	,	25	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(31	,	'Jason Jackson'	,	5	,		''		,		'February 11, 2018'		,		'Delectus amet natus fuga nostrum cum explicabo et ratione, quia tempora debitis alias accusamus ut quo repudiandae, doloremque sequi at libero unde.'		,	0	,	26	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(32	,	'Ralph Edwards'	,	2	,		''		,		'February 15, 2018'		,		'Received the wrong candle. I ordered the cinnamon candle but received vanilla instead.' 		,	0	,	27	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(33	,	'Debra Carter'	,	4	,	'perfect for the living room!!!'		,		'March 20, 2018'		,		'So cute!!!! Perfect sized throw pillow. Better quality than others.'		,	1	,	28	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(34	,	'Amanda Thompson'	,	4	,		''		,		'March 26, 2018'		,		'Autem totam explicabo inventore, assumenda perferendis esse, dolores non voluptatum quis possimus amet facilis sapiente tempore. Sit quos rerum neque distinctio vero.'		,	0	,	29	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(35	,	'Margaret Adams'	,	1	,		''		,		'March 27, 2018'		,		'DOES NOT WORK. I purchased this kitchen timer to use during a holiday event and IT DID NOT RING. IT BURNED THE LASAGNA AND RUINED THE PARTY.' 		,	0	,	30	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(36	,	'Elizabeth Roberts'	,	3	,		''		,		'April 9, 2018'		,		'Perferendis porro, sint a dicta debitis magnam quo, expedita enim quos at placeat blanditiis ratione, rerum ut. Repellendus sequi iste deleniti maiores.'		,	1	,	31	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(37	,	'Jose Ross'	,	2	,		''		,		'April 14, 2018'		,		'Quia voluptatem ratione rem iure hic, sit autem suscipit quisquam, beatae illo quam numquam molestias similique obcaecati minus repellendus esse velit repellat?'		,	0	,	32	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(38	, 'Walter Ramirez'	,	1	,		'BEWARE, PRODUCT NOT ACCURATE'		,		'June 9, 2018'		,	'NOT WHAT I ORDERED. I SPECIFICALLY ORDERED FOSPOONS BUT RECEIVED SPORKS INSTEAD.'		,	2	,	33	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(39	,	'Terry Brooks'	,	4	,		''		,		'June 20, 2018'		,		'my grandson switched the salt with the pepper, that scamp'		,	0	,	34	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(40	,	'Ann Morris'	,	3	,		''		,		'June 21, 2018'		,		'ThIs tOiLLeTtE wAs DAmP, nOT mOiST!!'		,	0	,	35	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(41	,	'Ryan Morgan'	,	5	,		'Great'		,		'July 11, 2018'		,		'5/5 exactly as advertised'		,	2	,	35	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(42	,	'Matthew Rodriguez'	,	2	,		''		,		'July 17, 2018'		,		'I stabbed my gums with this and it hurt, ouch!'		,	2	,	36	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(43	,	'Russell Clark'	,	1	,		''		,		'October 8, 2018	'	,		'This microwave was not able to charge my iPhone'		,	1	,	37	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(44	,	'Jean Kelly'	,	5	,		'Powerful blender'		,		'October 9, 2018'		,		'This blender successfully blended my iPhone'		,	0	,	38	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(45	,	'Brandon Simmons'	,	4	,		''		,		'October 19, 2018'		,		'Laudantium quidem odit maiores adipisci exercitationem laboriosam rerum ratione labore aliquam, commodi nisi iusto in odio distinctio similique neque, dolorum delectus doloribus.'		,	0	,	39	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(46	,	'Catherine Barnes'	,	5	,		''		,	'October 21, 2018'		,		'Nobis ducimus officiis voluptates? Placeat, labore molestias? Blanditiis magnam asperiores, facilis tempore laudantium vitae natus itaque, veritatis voluptas perspiciatis totam, fugiat corrupti!'		,	3	,	40	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(47	,	'Ashley Hill'	,	4	,		''		,		'October 25, 2018'		,		'Not as tasty as Tide Pods, but they do pair nicely together.'		,	2	,	41	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(48	,	'Louis Butler'	,	3	,		''		,		'November 16, 2018'		,		'Dolor error nam aut itaque eum, repellendus vitae maxime minima possimus aliquid, dolores suscipit ad recusandae assumenda! Velit asperiores beatae natus molestias.'		,	0	,	42	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(49	,	'Carl Allen'	,	4	,		'Quos aliquam repellendus blanditiis harum'		,		'December 2, 2018'		,		'Aut quam neque quis quasi facere earum animi, tenetur voluptate iusto suscipit architecto ullam fugiat. Pariatur iste porro veritatis asperiores recusandae voluptatibus!'		,	2	,	43	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(50	,	'Joshua Anderson'	,	4	,		''		,		'December 27, 2018'		,		'Saepe sint nisi assumenda totam dolore libero consequatur! Totam animi placeat reprehenderit ex, enim, repellendus pariatur ad quod aspernatur laboriosam facilis rerum!'		,	0	,	44	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(51	,	'Kelly Evans'	,	5	,		''		,		'January 11, 2018'		,		'Quibusdam magnam quod repellendus nulla dicta debitis corporis praesentium dolore velit voluptatibus dolorum, nihil fugit iste et excepturi, officia aut facilis consequuntur.'		,	0	,	45	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(52	,	'Lisa Jones'	,	4	,		''		,		'February 6, 2018'		,		'Tempora ducimus error, laborum dolor earum ut consequuntur corporis amet labore aut commodi nihil odio aliquam eius. Velit officiis eum tempora omnis.'		,	4	,	46	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(53	,	'Doris Cooper'	,	3	,		''		,		'March 3, 2018'		,		'Minus, aliquid et soluta ipsam id corporis, pariatur in praesentium nam itaque distinctio mollitia dicta ab optio iusto! Nulla accusamus fugit numquam'		,	2	,	47	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(54	,	'Carol Perry'	,	1	,		'Returning'		,		'March 4, 2018'		,		'Cheap quality, lids broke after the first use.'		,	0	,	48	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(55	,	'George Lopez'	,	4	,		''		,		'March 12, 2018'		,	'	DO YOU EVEN LIFT BRO?'		,	6	,	48	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(56	,	'Nicole Powell'	,	5	,		''		,		'March 21, 2018'		,		'Inventore sequi doloribus vero modi accusantium mollitia voluptates nisi officia eos ullam repellat fugiat, tempora dolorem ex nesciunt eaque porro rem illo!'		,	0	,	49	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(57	,	'Katherine Scott'	,	3	,		''		,		'April 22, 2018'		,		'The banana holder was on the smaller size, my banana did not fit.' 		,	0	,	50	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(58	,	'Randy Nelson'	,	5	,		''		,		'May 12, 2018'		,	'My family says I have a problem, I say I have a solutiooooon!!!!!'		,	2	,	51	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(59	,	'Adam Mitchell'	,	5	,		''		,		'May 18, 2018'		,		'Dolor quod cum quos architecto ab tempore facilis placeat voluptatem minima veniam doloribus consectetur nobis a modi, vero autem aspernatur minus dolorum?'		,	2	,	52	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(60	,	'Kathryn Russell'	,	4	,		'Autem nulla dolorum reiciendis'		,		'May 25, 2018'		,		'Voluptatibus ex obcaecati sunt voluptas esse aspernatur ea, sequi soluta facilis dignissimos delectus harum, ut molestias illo officiis labore nam expedita minima.	'	,	0	,	53	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(61	,	'Sharon Wilson'	,	5	,		''		,		'June 2, 2018'		,		'I measured this roll, and it was 52 ft long. Score!'		,	1	,	54	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(62	,	'Patrick Alexander'	,	4	,		''		,		'June 4, 2018'		,		'Dolores ex sed fuga, culpa et harum pariatur vitae maiores molestiae, deleniti itaque, sequi reiciendis illo obcaecati debitis. Iste laudantium officiis a.'		,	0	,	55	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(63	,	'Janice Washington'	,	1	,		''		,		'July 18, 2018'		,		'THIS IS NOT BROCCOLI!!!!!!!!!!!!!!!!!!!!!!!!'		,	0	,	56	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(64	,	'Sandra Lewis'	,	4	,		''		,		'August 5, 2018'		,		'Harum tempora labore consequuntur eos rem necessitatibus, ullam earum nesciunt incidunt soluta consectetur facilis nihil maxime eum quisquam pariatur, sunt sapiente optio.'		,	1	,	57	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(65	,	'Christine Stewart'	,	3	,		'Necessitatibus cupiditate ratione quia'		,		'August 9, 2018'		,		'Ipsam amet aliquam molestiae natus esse obcaecati qui nobis aperiam. Vel vitae at sunt obcaecati labore temporibus maiores atque similique ad in?'		,	2	,	58	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(66	,	'Stephanie Garcia'	,	2	,		''		,		'August 17, 2018'		,		'Wait is this not a banana?'		,	1	,	59	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(67	,	'Victor Bailey'	,	1	,		''		,		'August 30, 2018'		,		'SCAM ITS JUST SUGAR'		,	0	,	60	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(68	,	'Angela Hernandez'	,	5	,		''		,	'October 5, 2018'		,		'right on, man'		,	0	,	61	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(69	,	'Ronald Lee'	,	1	,		''		,		'November 8, 2018'		,		'NOT AS LONG AS ADVERTISED, DO NOT BUY!'		,	1	,	62	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(70	,	'William Rogers'	,	5	,		''		,		'November 10, 2018'		,		'Quasi impedit voluptas reprehenderit sit, dolorem, nobis assumenda voluptatum quaerat laudantium molestiae quidem aliquam excepturi vitae beatae minus, deserunt consequatur obcaecati. In?'		,	2	,	63	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(71 ,	'' , 4,		''		,		'November 15, 2018'		,		'Best brand of alcohol for rubbing'		,	0	,	64	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(72 ,	'' , 3,		''		,		'November 25, 2018'		,		'Do you even lift?'		,	5	,	65	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(73 ,	'' , 4,		''		,		'December 4, 2018'		,		'Voluptatibus ex obcaecati sunt voluptas esse aspernatur ea, sequi soluta facilis dignissimos delectus harum, ut molestias illo officiis labore nam expedita minima.'		,	0	,	66	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(74 ,	'' , 4,		''		,		'December 25, 2018'		,		'Do you even lift?'		,	3	,	67	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(75 ,	'' , 5,		''		,		'December 26, 2018'		,		'Natus porro provident itaque! Dolorem ea cumque voluptate dignissimos molestias rem tenetur ad commodi, tempora explicabo excepturi dolores aperiam. Iure, ea esse?'		,	2	,	68	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(76 ,	'' , 5,		''		,		'January 15, 2018'		,		'SO MUCH ENERGY'		,	0	,	69	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(77 ,	'' , 5,		''		,		'January 23, 2018'		,		'My life has completely transformed for the better after switching from almond milk to GM milk.' 		,	2	,	70	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(78 ,	'' , 5,		''		,		'February 5, 2018'		,		'Suprisingly tasty. Makes for a great late night snack.'		,	0	,	71	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(79 ,	'' , 4,		''		,		'February 27, 2018'		,		'Itaque, excepturi dolor dolorem quam sunt doloremque, illum debitis totam qui nisi nemo facilis ex ad odit ut quisquam quae libero maxime.'		,	0	,	72	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(80 ,	'' , 3,		'Porro, totam illum'		,		'March 8, 2018'		,		'Accusamus vitae numquam voluptatem totam, dolores facere unde fugit atque eos! Beatae non minima repellendus quaerat explicabo modi suscipit incidunt dolorum ab?'		,	1	,	73	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(81 ,	'' , 4,		''		,		'March 12, 2018'		,		'Aren''t all forks edible?'		,	2	,	74	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(82 ,	'' , 5,		'Eco Friendly'		,		'March 20, 2018'		,		'I purchased these for a party I hosted last weekend and they were a hit with our guests! Not only are they sustainable and eco friendly but they''re a great conversation starter. Just wish they offered more colors!'		,	2	,	74	,	TRUE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(83 ,	'' , 3,		''		,		'April 21, 2018'		,		'Deserunt enim sequi culpa fuga? Animi laboriosam non architecto provident, iure vero enim impedit commodi debitis quae hic aliquam, maxime numquam id.'		,	0	,	74	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(84 ,	'' , 5,		'Great customer service'		,		'April 30, 2018'		,		'The boxes we purchased were all a fork short. We contacted the seller and he immediately offered to replace or refund our order. The forks are great quality and we ended up keeping them but the customer servie exceeded our expectations. Will buy again.'		,	3	,	74	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(85 ,	'' , 4,		''		,		'May 18, 2018'		,		'I use this every day at the gym. Easy to clean, hard to forget!'		,	1	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(86 ,	'' , 5,		'LOVE LOVE LOVE.'		,		'June 13, 2018'		,		'Perfect for holding my gluten-free water during hikes. RECOMMEND 10/10'		,	2	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(87 ,	'' , 1,		'needs better packaging'		,		'August 1, 2018'		,		'box came damaged'		,	2	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(88 ,	'' , 3,		''		,		'August 17, 2018'		,		'decent. just wish it came with water.'		,	0	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(89 ,	'' , 5,		'Convenient'		,		'September 2, 2018'		,		'Theres no need to cook the water! Just add water and drink. By far the most revolutionary product of our time.'		,	3	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(90 ,	'' , 5,		''		,		'September 9, 2018'		,	'	I love boxed water, just add water!!!! Wish they sold them in bulk.' 		,	0	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(91 ,	'' , 4,		''		,		'September 21, 2018'		,		'Ex soluta enim corporis quisquam, est a consequuntur totam harum aut iste, nesciunt nobis ullam vero dolores autem deleniti accusantium. Corporis, at.'		,	0	,	75	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(92 ,	'' , 5,		''		,		'September 28, 2018'		,		'so darn cute! the colors are bright, good quality for the price.'		,	2	,	76	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(93 ,	'' , 2,		''		,		'September 29, 2018'		,		'So cute but unfortunately mine arrived broken' 		,	0	,	76	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(94 ,	'' , 5,		''		,		'October 22, 2018'		,		'the perfect companion to talk to when you get lonely'		,	0	,	76	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(95 ,	'' , 5,		''		,		'October 23, 2018'		,		'Quas hic dolore enim explicabo eos veritatis magni impedit architecto quaerat, esse quibusdam nemo labore beatae saepe sed velit nisi dignissimos qui?'		,	0	,	77	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(96 ,	'' , 4,		''		,		'December 1, 2018'		,		'Deserunt totam cupiditate amet, debitis, blanditiis, quos rerum vero illum pariatur quae quibusdam architecto. Atque, amet. Corporis possimus architecto ipsum dolore reprehenderit.'		,	2	,	78	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(97 ,	'' , 4,		''		,		'December 15, 2018'		,		'The color is more of a salmon, but it goes well with my chartreuse Flamingos.'		,	0	,	79	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(98 ,	'' , 5,		''		,		'December 28, 2018'		,		'Cumque numquam possimus culpa eum, est esse minus sint sed earum illo eveniet voluptates tenetur dicta nemo maxime animi magni nostrum in?'		,	2	,	80	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(99 ,	'' , 5,		''		,		'December 30, 2018'		,		'Perfect for scaring your in-laws from an over extended stay.'		,	0	,	81	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(100, '' , 4,		''		,		'December 31, 2018'		,		'The whackiest weed whacker on Sequoia.'		,	0	,	82	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(101, '' , 3,		''		,		'January 9, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo nostrum soluta consequatur, mollitia qui? Illum ex vitae repudiandae esse, provident ab officia aliquam. Inventore sed illum consectetur enim laborum?'		,	1	,	83	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(102, '' , 2,		'Hic odio similique officia temporibus	'	,		'January 19, 2018'		,		'Sit sapiente modi amet ipsam voluptatum dolorem, commodi, temporibus maxime a illo veniam sint sed ad, cumque eius. Ipsum autem necessitatibus maxime.'		,	0	,	84	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(103, '' , 1,		''		,	'	January 31, 2018'		,		'Voluptate architecto optio itaque fugit rem mollitia enim, veniam error illum! Necessitatibus doloremque consequatur dolor dignissimos recusandae? Ipsum aperiam harum fugiat alias?'		,	0	,	85	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(104, '' , 3,		'Neque eius animi asperiores maiores'		,		'February 1, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odit. Consectetur provident incidunt, sint architecto maiores nulla dicta voluptate! Sed eum obcaecati fugiat consectetur sit incidunt doloremque similique numquam quos!'		,	1	,	86	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(105, '' , 4,		''		,		'''March 15, 2018'		,		'Tempora, vel. Perferendis nesciunt nostrum laudantium doloribus. Optio repudiandae voluptatibus veritatis animi, minima ipsa rem consequuntur. Qui harum eaque aliquid voluptatem et?'		,	2	,	87	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(106, '' , 3,		''		,		'May 13, 2018'		,		'Nobis, nihil facere? Beatae placeat voluptatibus dolore nihil, facere voluptas sint facilis consectetur veniam, dolorum pariatur quod eveniet porro ab. Sunt, repudiandae.'		,	0	,	88	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(107, '' , 5,		''		,		'May 20, 2018'		,		'Officiis amet accusamus molestiae facere, perferendis esse necessitatibus eum dolor consequuntur quis! Praesentium cupiditate distinctio aspernatur ratione, nisi eos! Magni, asperiores dicta.'		,	0	,	89	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(108, '' , 3,		''		,		'May 22, 2018'		,		'Maxime rem ipsum sint. Consequuntur commodi a harum voluptates repellendus magnam obcaecati sed ea nemo voluptas magni reiciendis, sunt accusamus. Minus, similique?'		,	3	,	90	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(109, '' , 2,		''		,		'May 26, 2018'		,		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat eos ex dignissimos deserunt, debitis iste? Maxime hic odio aperiam perspiciatis iste culpa ratione quia eaque, reiciendis cum molestias! Similique'		,	0	,	91	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(110, '' , 4,		'Atque ducimus similique expedita deleniti'		,		'August 9, 2018'		,		'Mollitia possimus dolorum nam fugiat libero alias sapiente deserunt ipsam quis sit qui voluptatum veniam placeat quam consectetur, tempore facilis itaque unde.'		,	3	,	92	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(111, '' , 5,		'Possimus maxime ab doloribus porro'		,		'August 22, 2018'		,		'Perferendis doloremque ex unde fugit impedit, omnis cumque? Deserunt officiis fugit, sapiente nostrum itaque tempora cumque aperiam id in. Sunt, libero quos?'		,	0	,	93	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(112, '' , 3,		'Accusamus asperiores modi odit'		,		'August 26, 2018'		,		'Reiciendis necessitatibus ipsa tenetur eius unde officia. Voluptate, alias asperiores corporis quia quo, ullam mollitia nam cum, reprehenderit officiis aliquid laborum sed!'		,	1	,	94	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(113, '' , 2,		'Atque ducimus similique expedita deleniti'		,		'August 29, 2018'		,		'Obcaecati animi sed rerum exercitationem aliquam neque incidunt expedita aspernatur impedit iure tempora iste, aperiam eaque est unde voluptates, quis qui magnam?'		,	0	,	95	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(114, '' , 4,		'Molestias debitis'		,		'September 2, 2018'		,		'Maiores natus nihil similique iure fugit maxime deleniti iste ducimus. Soluta labore dicta neque corporis ea fuga iure eum ipsa id cupiditate.'		,	1	,	96	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(115, '' , 5,		'Provident consequatur dolores aliquid, accusantium eveniet corporis nobis'		,		'September 14, 2018	'	,		'Assumenda illo ducimus cum, laboriosam distinctio voluptatibus reprehenderit iure vel temporibus saepe, nulla a aspernatur, cupiditate tempora quos est tempore nisi quisquam!'		,	0	,	97	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(116, '' , 5,		''		,		'September 15, 2018'		,		'Debitis, ullam. Numquam, aliquid culpa magnam, voluptates deleniti odit sequi, perspiciatis beatae earum adipisci tenetur animi veritatis doloremque sint itaque. Cumque, placeat?'		,	0	,	98	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(117, '' , 4,		''		,		'September 26, 2018'		,		'My HOA keeps complaining, but I WILL NOT RESEED MY LAWN SUZY!'		,	1	,	99	,	FALSE	);
-INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified) VALUES(118, '' , 5,		''		,		'September 28, 2018'		,		'Vel aperiam illo eos reprehenderit laborum, nulla delectus quos at corrupti maxime architecto a, vero odit animi omnis quidem. Quas, quo nobis!'		,	0	,	100	,	FALSE	);
+INSERT INTO products (id, name, "createdAt", "updatedAt") 
+VALUES 
+(1, 'Regency Edition Leather Loveseat', NOW(), NOW()),
+(2, 'SuperSleep MegaFoam King Size Comfort Mattress', NOW(), NOW()),
+(3, 'Playa Furniture Premium Folding Table', NOW(), NOW()),
+(4, 'Light Up Globe Color, 12-Inch', NOW(), NOW()),
+(5, 'Regency Edition Sustainable Wood Bookshelf', NOW(), NOW()),
+(6, 'Regency Edition Sustainable Wood Dining Chair', NOW(), NOW()),
+(7, 'Regency Edition Sustainable Wood Dining Table', NOW(), NOW()),
+(8, 'Xtreme Furniture King Size Waterbed', NOW(), NOW()),
+(9, 'Bean Bag Chair, Funky Design, Large', NOW(), NOW()),
+(10, 'Modern Design Nightstand with Drawer', NOW(), NOW()),
+(11, 'Architect Desk Lamp, Chrome with LED', NOW(), NOW()),
+(12, 'Rustic Wall Mirror, Wooden Frame', NOW(), NOW()),
+(13, 'Luxury Cotton Sheets 120 Thread Count Blue', NOW(), NOW()),
+(14, 'Extra Thick Quilted Comforter, Cotton Fill White', NOW(), NOW()),
+(15, 'Bob''s Pillows Memory Foam Pillow', NOW(), NOW()),
+(16, 'PREMIUM HIGH QUALITY Plastic Fern, Green', NOW(), NOW()),
+(17, 'Groovy Lava Lamp, 12 inch Red', NOW(), NOW()),
+(18, 'Groovy Shag Rug, 100% Polyester, 72 x 48 in', NOW(), NOW()),
+(19, 'Groovy Disco Ball 20 inch Real Glass', NOW(), NOW()),
+(20, 'Strobe Light LED Lights w/ Remote HIGH POWER', NOW(), NOW()),
+(21, 'Classic Vintage Style Pinball Machine', NOW(), NOW()),
+(22, 'Xtreme Olympic Rules Ping Pong Table', NOW(), NOW()),
+(23, 'Antique Style Distressed Oak Dresser', NOW(), NOW()),
+(24, 'Antique Style Distressed Grandfather Clock', NOW(), NOW()),
+(25, 'Xtreme Olympic Rules Foosball Table', NOW(), NOW()),
+(26, 'Ergonomic Rolling Executive Office Chair', NOW(), NOW()),
+(27, 'Cinnamon Scented Candle, Large', NOW(), NOW()),
+(28, 'Blue Throw Pillow, 16 X 22 in, 100% Cotton', NOW(), NOW()),
+(29, 'SuperChef Stainless Steel Garlic Press', NOW(), NOW()),
+(30, 'SuperChef Countertop Kitchen Timer', NOW(), NOW()),
+(31, 'PicnicTime Premium Assorted Plastic Cutlery', NOW(), NOW()),
+(32, 'SuperChef Stainless Steel Refrigerator', NOW(), NOW()),
+(33, 'PicnicTime Premium Sporks', NOW(), NOW()),
+(34, 'MegaMeal Glass Salt & Pepper Shakers, 2 ct', NOW(), NOW()),
+(35, 'PicnicTime Moist Toilettes', NOW(), NOW()),
+(36, 'MegaMeal Round Wood Toothpicks', NOW(), NOW()),
+(37, 'SuperChef 1200W Microwave, with Preset Cooking Options', NOW(), NOW()),
+(38, 'SuperChef Blender with Glass Jar and Smoothie Setting', NOW(), NOW()),
+(39, 'SuperChef Indoor Grill and Electric Griddle ', NOW(), NOW()),
+(40, 'PicnicTime Flame Resistant Oven Mittens', NOW(), NOW()),
+(41, 'HomeAdvantage 100% Organic Dish Soap', NOW(), NOW()),
+(42, 'PicnicTime Ceramic Meal Cups', NOW(), NOW()),
+(43, 'HomeAdvantage Ceramic Coffee Mug', NOW(), NOW()),
+(44, 'HomeAdvantage Travel Thermos', NOW(), NOW()),
+(45, 'HomeAdvantage 7 cup Rice Cooker', NOW(), NOW()),
+(46, 'HomeAdvantage Stainless Steel Spatula', NOW(), NOW()),
+(47, 'SuperChef Premium Coffee Maker 2 cup brewer', NOW(), NOW()),
+(48, 'HomeAdvantage Plastic Sealable Meal Prep Container', NOW(), NOW()),
+(49, 'HomeAdvantage Lunch Pale', NOW(), NOW()),
+(50, 'HomeAdvantage Banana Holder', NOW(), NOW()),
+(51, 'SuperChef Stainless Wine Corkscrew', NOW(), NOW()),
+(52, 'PicnicTime Resealable Sandwich Bags', NOW(), NOW()),
+(53, 'PicnicTime Aluminum Foil Roil, 50ft', NOW(), NOW()),
+(54, 'PicnicTime Cling Wrap Roil, 50ft', NOW(), NOW()),
+(55, 'PicnicTime Plastic Sealable Bowl', NOW(), NOW()),
+(56, 'FreshTaste Broccoliflower', NOW(), NOW()),
+(57, 'FreshTaste Cheese Wheel', NOW(), NOW()),
+(58, 'FreshTaste Protein Powder', NOW(), NOW()),
+(59, 'FreshTaste Plaintain', NOW(), NOW()),
+(60, 'FreshTaste Unicorn Dust', NOW(), NOW()),
+(61, 'FreshTaste Oregano', NOW(), NOW()),
+(62, 'FreshTaste Banana', NOW(), NOW()),
+(63, 'FreshTaste Premium Apple Juice', NOW(), NOW()),
+(64, 'HomeAdvantage Rubbing Alcohol', NOW(), NOW()),
+(65, 'FreshTaste Dietary Supplement', NOW(), NOW()),
+(66, 'FreshTaste Omega Three Fatty Acid Supplement', NOW(), NOW()),
+(67, 'FreshTaste Whey Powder', NOW(), NOW()),
+(68, 'FreshTaste Synthetic Apple', NOW(), NOW()),
+(69, 'FreshTaste Caffeine Pills ', NOW(), NOW()),
+(70, 'FreshTaste GMO Milk', NOW(), NOW()),
+(71, 'FreshTaste Hamster Food', NOW(), NOW()),
+(72, 'FreshTaste Cheesy Puffs', NOW(), NOW()),
+(73, 'FreshTaste Organic Unfiltered Water', NOW(), NOW()),
+(74, 'FreshTaste Edible Forks', NOW(), NOW()),
+(75, 'FreshTaste Boxed Water, Just Add Water', NOW(), NOW()),
+(76, 'LawnDisplay Ceramic Garden Gnome', NOW(), NOW()),
+(77, 'YardPro Riding Mower', NOW(), NOW()),
+(78, 'YardPro 50ft Hose', NOW(), NOW()),
+(79, 'LawnDisplay Pink Lawn Flamingo', NOW(), NOW()),
+(80, 'YardPro Metal Harvesting Sickle', NOW(), NOW()),
+(81, 'YardPro Chainsaw', NOW(), NOW()),
+(82, 'YardPro Weed Trimmer', NOW(), NOW()),
+(83, 'YardPro Oscillating Sprinkler', NOW(), NOW()),
+(84, 'YardPro Non-Oscillating Sprinkler', NOW(), NOW()),
+(85, 'LawnDisplay Stone Bird Bath', NOW(), NOW()),
+(86, 'YardPro BBQ lighter', NOW(), NOW()),
+(87, 'YardPro Weed Burner', NOW(), NOW()),
+(88, 'YardPro XL Lawn Chair', NOW(), NOW()),
+(89, 'LawnDisplay Small Circular Fountain', NOW(), NOW()),
+(90, 'LawnDisplay Patio Umbrella', NOW(), NOW()),
+(91, 'LawnDisplay Wood Patio Table', NOW(), NOW()),
+(92, 'YardPro Jet Hottub', NOW(), NOW()),
+(93, 'YardPro Solar Panels', NOW(), NOW()),
+(94, 'LawnDisplay Inflatable Pool', NOW(), NOW()),
+(95, 'LawnDisplay Succulent Planters', NOW(), NOW()),
+(96, 'YardPro Pool Floatie', NOW(), NOW()),
+(97, 'YardPro Pool Noodle', NOW(), NOW()),
+(98, 'LawnDisplay Rock Enclosure', NOW(), NOW()),
+(99, 'LawnDisplay Green Astroturf', NOW(), NOW()),
+(100, 'LawnDisplay Metal Giraffe', NOW(), NOW());
+
+INSERT INTO	 Reviews(id, customer_name, rating, title, date, review, helpful_count, "productId", verified, "createdAt", "updatedAt") 
+VALUES
+(1, 'Tomas Wise', 5, 'Lorem ipsum dolor sit amet consectetur adipisicing elit.', 'January 21, 2018', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.', 10, 1, TRUE, NOW(), NOW()),
+(119, 'Henry Arnold',	2, '', 'September 20, 2018', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.',	12,	1,	FALSE, NOW(), NOW()),
+(120, '' , 3,		''		,		'January 9, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo nostrum soluta consequatur, mollitia qui? Illum ex vitae repudiandae esse, provident ab officia aliquam. Inventore sed illum consectetur enim laborum?'		,	1	,	1	,	TRUE	, NOW(), NOW()),
+(121, '' , 2,		'Hic odio similique officia temporibus	'	,		'January 19, 2018'		,		'Sit sapiente modi amet ipsam voluptatum dolorem, commodi, temporibus maxime a illo veniam sint sed ad, cumque eius. Ipsum autem necessitatibus maxime.'		,	0	,	1	,	FALSE	, NOW(), NOW()),
+(122 ,	'' , 5,		''		,		'October 23, 2018'		,		'Quas hic dolore enim explicabo eos veritatis magni impedit architecto quaerat, esse quibusdam nemo labore beatae saepe sed velit nisi dignissimos qui?'		,	0	,	1	,	FALSE	, NOW(), NOW()),
+(123	,	'Patrick Alexander'	,	4	,		''		,		'June 4, 2018'		,		'Dolores ex sed fuga, culpa et harum pariatur vitae maiores molestiae, deleniti itaque, sequi reiciendis illo obcaecati debitis. Iste laudantium officiis a.'		,	0	,	1	,	TRUE	, NOW(), NOW()),
+(124, '' , 5,		''		,		'September 28, 2018'		,		'Vel aperiam illo eos reprehenderit laborum, nulla delectus quos at corrupti maxime architecto a, vero odit animi omnis quidem. Quas, quo nobis!'		,	0	,	1	,	FALSE	, NOW(), NOW()),
+(2, 'Jasmine Curtis', 5, '',	'February 23, 2018', 'We purchased the SuperSleep King Size Memory Foam Mattress for our 10th guest bedroom. We haven''t actually slept on it but looks comfortable.', 11, 2, TRUE, NOW(), NOW()),
+(3, 'Marlon Valdez',	5, 'Love this table', 'March 24, 2018', 'Great folding experience, out of all the folding tables I''ve bought, this one performs best. I''ll be replacing my other tables with these.',	9, 3,	TRUE, NOW(), NOW()),
+(4, 'Johanna Quinn',	1, '', 'March 26, 2018', 'THE EARTH IS FLAT. RESEARCH #FLATEARTH. #WOKE',	23,	4, TRUE, NOW(), NOW()),
+(5, 'Terry Mendez', 4, 'Great', 'April 8, 2018', 'Son loved it.', 21, 4,	TRUE, NOW(), NOW()),
+(6, 'Oliver Simmons', 5, 'ONLY BUY PRODUCTS MADE FROM FREE RANGE TREES', 'May 5, 2018', 'Quality bookshelf for the price. Wood is sourced directly from free range trees farms.', 4, 5, TRUE, NOW(), NOW()),
+(7, 'Gilbert Ramos',	5, 'ONLY BUY PRODUCTS MADE FROM FREE RANGE TREES', 'May 8, 2018', 'Purchased the chairs and table from the Regency Collection for our dinning room. Biggest selling point was the sustainable wood, which is souced from free range tree farms.',	11,	6, TRUE, NOW(), NOW()),
+(8, 'Van Santos', 5, 'ONLY BUY PRODUCTS MADE FROM FREE RANGE TREES', 'June 13, 2018', 'Purchased the chairs and table from the Regency Collection for our dinning room. Biggest selling point was the sustainable wood, which is souced from free range tree farms.', 19,	7, TRUE, NOW(), NOW()),
+(9, 'Ron Frazier',	4, 'Make sure you have a hose long enough to reach your bedroom', 'July 20, 2018', 'AMAZING BED! This bed has changed the way we sleep everynight. Only complaint was having to fill this up on our upstairs master room. It was hard finding a hose long enough to reach our bedroom on the second floor. The dogs love it!', 16, 8, TRUE, NOW(), NOW()),
+(10, 'Stacy Sandoval', 5, '', 'August 15, 2018', 'Great bean bag chairs. My husband purchased two for the kids game room and the kids seem to enjoy them',	13,	9, TRUE, NOW(), NOW()),
+(11, 'Bethany Estrada', 5, '', 'August 19, 2018', 'Sleek contemporary night stand. Great addition to our bedroom.', 12, 10, TRUE, NOW(), NOW()),
+(12, 'Ruby Evans',	4, '', 'August 23, 2018', 'Perfect desk lamp for a student!',	15,	11,	TRUE, NOW(), NOW()),
+(13, 'Nora Barker', 1, 'PRODUCT NOT AS DESCRIBED!', 'September 1, 2018', 'BEWARE OF THIS MIRROR. MIRROR CAME WITH DISTORTED GLASS WHEN DESCRIPTION CLEARLY SAYS DISTORTION-FREE. WILL BE RETURNING.', 13, 12, TRUE, NOW(), NOW()),
+(14, 'Ollie Moore', 1, '', 'September 10, 2018', 'I had purchased the comforter along with the bed sheets. YOU CALL THIS 120 THEADS? IT FEELS LIKE SAND PAPER AS FAR AS IM CONCERNED.', 9, 13,	TRUE, NOW(), NOW()),
+(15, 'Henry Arnold',	2, '', 'September 20, 2018', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.',	12,	13,	TRUE, NOW(), NOW()),
+(16, 'Donnie Mann', 1, '', 'September 24, 2018', 'I had purchased the comforter along with the bed sheets. YOU CALL THIS 120 THEADS? IT FEELS LIKE SAND PAPER AS FAR AS IM CONCERNED.', 11, 14, TRUE, NOW(), NOW()),
+(17, 'Kendra Wong', 4, 'Perfect', 'October 8, 2018', 'The perfect regular pillow for a regular man.', 3, 15, TRUE, NOW(), NOW()),
+(18, 'Ivan Duncan', 3, 'Disappointed', 'October 13, 2018', 'I found this pillow highly irregular.', 9, 15,	TRUE, NOW(), NOW()),
+(19, 'Willard Weaver',	3, 'SAFE FOR CATS', 'October 19, 2018', 'MY CAT ATE THIS AND WAS FINE',	2, 16, TRUE, NOW(), NOW()),
+(20, 'Danny Woods', 3, '', 'October 29, 2018', 'Product description mentions not suitable for kids under 5 but my 3 year old is enjoying it.',	10,	16,	TRUE, NOW(), NOW()),
+(21, 'Tina Phillips'	,	5	,		'Realistic looking'		,		'November 2, 2018'		,		'It wasn''t until the second month of watering it I realized it was a plastic fern.' 		,	1	,	16	,	TRUE	, NOW(), NOW()),
+(22	,	'Philip Patterson'	,	4	,		''		,		'November 17, 2018'		,		'One time I stared at this for 3 hours and a little man appeared and told me to invest in Herbalife.'		,	0	,	17	,	TRUE	, NOW(), NOW()),
+(23	,	'Gloria Richardson'	,	2	,		'Returning'		,		'December 18, 2018'		,		'Too shaggy'		,	0	,	18	,	TRUE	, NOW(), NOW()),
+(24	,	'Marilyn Coleman'	,	5	,		'Exactly what i''ve been looking for'		,		'December 22, 2018'		,		'FANTASTIC PRODUCT. The disco ball is made from REAL glass mirrors, unlike competitors disco balls made with FAKE glass mirrors. THE QUALITY AND CRAFTMANSHIP SHOWS.'		,	5	,	19	,	TRUE	, NOW(), NOW()),
+(25	,	'Raymond Harris'	,	1	,		''		,		'December 25, 2018'		,		'I found out the hard way that I have epilepsy.'		,	9	,	20	,	TRUE	, NOW(), NOW()),
+(26	,	'Joyce Walker'	,	5	,		''		,		'January 13, 2018'		,		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste cupiditate commodi incidunt perspiciatis expedita voluptate suscipit iure voluptatem ipsa repellendus? Consectetur, delectus id magnam necessitatibus suscipit magni sequi illo aliquid.'		,	2	,	21	,	TRUE	, NOW(), NOW()),
+(27	,	'Robert Martin'	,	5	,		''		,		'January 17, 2018'		,		'Sunt, perspiciatis. Labore rerum fugit blanditiis dicta, doloremque illum id explicabo tempore, repellendus aut nobis magnam qui at quas nisi provident nostrum!'		,	1	,	22	,	TRUE	, NOW(), NOW()),
+(28	,	'Wayne Green'	,	4	,		''		,		'January 18, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam voluptatem pariatur quis atque culpa cum soluta sunt esse quae. Doloribus aspernatur quas, eveniet inventore ut veritatis facere aliquam perspiciatis?'		,	0	,	23	,	TRUE	, NOW(), NOW()),
+(29	,	'Karen White'	,	3	,		'Lorem ipsum dolor sit amet consectetur adipisicing elit.'		,		'January 20, 2018'		,		'Aliquid adipisci nam impedit commodi itaque magni nostrum doloribus aspernatur praesentium dignissimos recusandae totam illo delectus architecto, voluptatem corrupti. Id, reiciendis blanditiis?'		,	1	,	24	,	TRUE	, NOW(), NOW()),
+(30	,	'Janet James'	,	4	,		''		,		'February 4, 2018'		,		'Sunt minus hic libero eaque, officia mollitia consequatur, eius, ab nobis excepturi saepe qui voluptate adipisci aut aperiam molestiae quos amet nihil!'		,	0	,	25	,	TRUE	, NOW(), NOW()),
+(31	,	'Jason Jackson'	,	5	,		''		,		'February 11, 2018'		,		'Delectus amet natus fuga nostrum cum explicabo et ratione, quia tempora debitis alias accusamus ut quo repudiandae, doloremque sequi at libero unde.'		,	0	,	26	,	TRUE	, NOW(), NOW()),
+(32	,	'Ralph Edwards'	,	2	,		''		,		'February 15, 2018'		,		'Received the wrong candle. I ordered the cinnamon candle but received vanilla instead.' 		,	0	,	27	,	TRUE	, NOW(), NOW()),
+(33	,	'Debra Carter'	,	4	,	'perfect for the living room!!!'		,		'March 20, 2018'		,		'So cute!!!! Perfect sized throw pillow. Better quality than others.'		,	1	,	28	,	TRUE	, NOW(), NOW()),
+(34	,	'Amanda Thompson'	,	4	,		''		,		'March 26, 2018'		,		'Autem totam explicabo inventore, assumenda perferendis esse, dolores non voluptatum quis possimus amet facilis sapiente tempore. Sit quos rerum neque distinctio vero.'		,	0	,	29	,	TRUE	, NOW(), NOW()),
+(35	,	'Margaret Adams'	,	1	,		''		,		'March 27, 2018'		,		'DOES NOT WORK. I purchased this kitchen timer to use during a holiday event and IT DID NOT RING. IT BURNED THE LASAGNA AND RUINED THE PARTY.' 		,	0	,	30	,	TRUE	, NOW(), NOW()),
+(36	,	'Elizabeth Roberts'	,	3	,		''		,		'April 9, 2018'		,		'Perferendis porro, sint a dicta debitis magnam quo, expedita enim quos at placeat blanditiis ratione, rerum ut. Repellendus sequi iste deleniti maiores.'		,	1	,	31	,	TRUE	, NOW(), NOW()),
+(37	,	'Jose Ross'	,	2	,		''		,		'April 14, 2018'		,		'Quia voluptatem ratione rem iure hic, sit autem suscipit quisquam, beatae illo quam numquam molestias similique obcaecati minus repellendus esse velit repellat?'		,	0	,	32	,	TRUE	, NOW(), NOW()),
+(38	, 'Walter Ramirez'	,	1	,		'BEWARE, PRODUCT NOT ACCURATE'		,		'June 9, 2018'		,	'NOT WHAT I ORDERED. I SPECIFICALLY ORDERED FOSPOONS BUT RECEIVED SPORKS INSTEAD.'		,	2	,	33	,	TRUE	, NOW(), NOW()),
+(39	,	'Terry Brooks'	,	4	,		''		,		'June 20, 2018'		,		'my grandson switched the salt with the pepper, that scamp'		,	0	,	34	,	TRUE	, NOW(), NOW()),
+(40	,	'Ann Morris'	,	3	,		''		,		'June 21, 2018'		,		'ThIs tOiLLeTtE wAs DAmP, nOT mOiST!!'		,	0	,	35	,	TRUE	, NOW(), NOW()),
+(41	,	'Ryan Morgan'	,	5	,		'Great'		,		'July 11, 2018'		,		'5/5 exactly as advertised'		,	2	,	35	,	TRUE	, NOW(), NOW()),
+(42	,	'Matthew Rodriguez'	,	2	,		''		,		'July 17, 2018'		,		'I stabbed my gums with this and it hurt, ouch!'		,	2	,	36	,	TRUE	, NOW(), NOW()),
+(43	,	'Russell Clark'	,	1	,		''		,		'October 8, 2018	'	,		'This microwave was not able to charge my iPhone'		,	1	,	37	,	TRUE	, NOW(), NOW()),
+(44	,	'Jean Kelly'	,	5	,		'Powerful blender'		,		'October 9, 2018'		,		'This blender successfully blended my iPhone'		,	0	,	38	,	TRUE	, NOW(), NOW()),
+(45	,	'Brandon Simmons'	,	4	,		''		,		'October 19, 2018'		,		'Laudantium quidem odit maiores adipisci exercitationem laboriosam rerum ratione labore aliquam, commodi nisi iusto in odio distinctio similique neque, dolorum delectus doloribus.'		,	0	,	39	,	TRUE	, NOW(), NOW()),
+(46	,	'Catherine Barnes'	,	5	,		''		,	'October 21, 2018'		,		'Nobis ducimus officiis voluptates? Placeat, labore molestias? Blanditiis magnam asperiores, facilis tempore laudantium vitae natus itaque, veritatis voluptas perspiciatis totam, fugiat corrupti!'		,	3	,	40	,	TRUE	, NOW(), NOW()),
+(47	,	'Ashley Hill'	,	4	,		''		,		'October 25, 2018'		,		'Not as tasty as Tide Pods, but they do pair nicely together.'		,	2	,	41	,	TRUE	, NOW(), NOW()),
+(48	,	'Louis Butler'	,	3	,		''		,		'November 16, 2018'		,		'Dolor error nam aut itaque eum, repellendus vitae maxime minima possimus aliquid, dolores suscipit ad recusandae assumenda! Velit asperiores beatae natus molestias.'		,	0	,	42	,	TRUE	, NOW(), NOW()),
+(49	,	'Carl Allen'	,	4	,		'Quos aliquam repellendus blanditiis harum'		,		'December 2, 2018'		,		'Aut quam neque quis quasi facere earum animi, tenetur voluptate iusto suscipit architecto ullam fugiat. Pariatur iste porro veritatis asperiores recusandae voluptatibus!'		,	2	,	43	,	TRUE	, NOW(), NOW()),
+(50	,	'Joshua Anderson'	,	4	,		''		,		'December 27, 2018'		,		'Saepe sint nisi assumenda totam dolore libero consequatur! Totam animi placeat reprehenderit ex, enim, repellendus pariatur ad quod aspernatur laboriosam facilis rerum!'		,	0	,	44	,	TRUE	, NOW(), NOW()),
+(51	,	'Kelly Evans'	,	5	,		''		,		'January 11, 2018'		,		'Quibusdam magnam quod repellendus nulla dicta debitis corporis praesentium dolore velit voluptatibus dolorum, nihil fugit iste et excepturi, officia aut facilis consequuntur.'		,	0	,	45	,	TRUE	, NOW(), NOW()),
+(52	,	'Lisa Jones'	,	4	,		''		,		'February 6, 2018'		,		'Tempora ducimus error, laborum dolor earum ut consequuntur corporis amet labore aut commodi nihil odio aliquam eius. Velit officiis eum tempora omnis.'		,	4	,	46	,	TRUE	, NOW(), NOW()),
+(53	,	'Doris Cooper'	,	3	,		''		,		'March 3, 2018'		,		'Minus, aliquid et soluta ipsam id corporis, pariatur in praesentium nam itaque distinctio mollitia dicta ab optio iusto! Nulla accusamus fugit numquam'		,	2	,	47	,	TRUE	, NOW(), NOW()),
+(54	,	'Carol Perry'	,	1	,		'Returning'		,		'March 4, 2018'		,		'Cheap quality, lids broke after the first use.'		,	0	,	48	,	TRUE	, NOW(), NOW()),
+(55	,	'George Lopez'	,	4	,		''		,		'March 12, 2018'		,	'	DO YOU EVEN LIFT BRO?'		,	6	,	48	,	TRUE	, NOW(), NOW()),
+(56	,	'Nicole Powell'	,	5	,		''		,		'March 21, 2018'		,		'Inventore sequi doloribus vero modi accusantium mollitia voluptates nisi officia eos ullam repellat fugiat, tempora dolorem ex nesciunt eaque porro rem illo!'		,	0	,	49	,	TRUE	, NOW(), NOW()),
+(57	,	'Katherine Scott'	,	3	,		''		,		'April 22, 2018'		,		'The banana holder was on the smaller size, my banana did not fit.' 		,	0	,	50	,	TRUE	, NOW(), NOW()),
+(58	,	'Randy Nelson'	,	5	,		''		,		'May 12, 2018'		,	'My family says I have a problem, I say I have a solutiooooon!!!!!'		,	2	,	51	,	TRUE	, NOW(), NOW()),
+(59	,	'Adam Mitchell'	,	5	,		''		,		'May 18, 2018'		,		'Dolor quod cum quos architecto ab tempore facilis placeat voluptatem minima veniam doloribus consectetur nobis a modi, vero autem aspernatur minus dolorum?'		,	2	,	52	,	TRUE	, NOW(), NOW()),
+(60	,	'Kathryn Russell'	,	4	,		'Autem nulla dolorum reiciendis'		,		'May 25, 2018'		,		'Voluptatibus ex obcaecati sunt voluptas esse aspernatur ea, sequi soluta facilis dignissimos delectus harum, ut molestias illo officiis labore nam expedita minima.	'	,	0	,	53	,	TRUE	, NOW(), NOW()),
+(61	,	'Sharon Wilson'	,	5	,		''		,		'June 2, 2018'		,		'I measured this roll, and it was 52 ft long. Score!'		,	1	,	54	,	TRUE	, NOW(), NOW()),
+(62	,	'Patrick Alexander'	,	4	,		''		,		'June 4, 2018'		,		'Dolores ex sed fuga, culpa et harum pariatur vitae maiores molestiae, deleniti itaque, sequi reiciendis illo obcaecati debitis. Iste laudantium officiis a.'		,	0	,	55	,	TRUE	, NOW(), NOW()),
+(63	,	'Janice Washington'	,	1	,		''		,		'July 18, 2018'		,		'THIS IS NOT BROCCOLI!!!!!!!!!!!!!!!!!!!!!!!!'		,	0	,	56	,	TRUE	, NOW(), NOW()),
+(64	,	'Sandra Lewis'	,	4	,		''		,		'August 5, 2018'		,		'Harum tempora labore consequuntur eos rem necessitatibus, ullam earum nesciunt incidunt soluta consectetur facilis nihil maxime eum quisquam pariatur, sunt sapiente optio.'		,	1	,	57	,	TRUE	, NOW(), NOW()),
+(65	,	'Christine Stewart'	,	3	,		'Necessitatibus cupiditate ratione quia'		,		'August 9, 2018'		,		'Ipsam amet aliquam molestiae natus esse obcaecati qui nobis aperiam. Vel vitae at sunt obcaecati labore temporibus maiores atque similique ad in?'		,	2	,	58	,	TRUE	, NOW(), NOW()),
+(66	,	'Stephanie Garcia'	,	2	,		''		,		'August 17, 2018'		,		'Wait is this not a banana?'		,	1	,	59	,	TRUE	, NOW(), NOW()),
+(67	,	'Victor Bailey'	,	1	,		''		,		'August 30, 2018'		,		'SCAM ITS JUST SUGAR'		,	0	,	60	,	TRUE	, NOW(), NOW()),
+(68	,	'Angela Hernandez'	,	5	,		''		,	'October 5, 2018'		,		'right on, man'		,	0	,	61	,	TRUE	, NOW(), NOW()),
+(69	,	'Ronald Lee'	,	1	,		''		,		'November 8, 2018'		,		'NOT AS LONG AS ADVERTISED, DO NOT BUY!'		,	1	,	62	,	TRUE	, NOW(), NOW()),
+(70	,	'William Rogers'	,	5	,		''		,		'November 10, 2018'		,		'Quasi impedit voluptas reprehenderit sit, dolorem, nobis assumenda voluptatum quaerat laudantium molestiae quidem aliquam excepturi vitae beatae minus, deserunt consequatur obcaecati. In?'		,	2	,	63	,	TRUE	, NOW(), NOW()),
+(71 ,	'' , 4,		''		,		'November 15, 2018'		,		'Best brand of alcohol for rubbing'		,	0	,	64	,	TRUE	, NOW(), NOW()),
+(72 ,	'' , 3,		''		,		'November 25, 2018'		,		'Do you even lift?'		,	5	,	65	,	TRUE	, NOW(), NOW()),
+(73 ,	'' , 4,		''		,		'December 4, 2018'		,		'Voluptatibus ex obcaecati sunt voluptas esse aspernatur ea, sequi soluta facilis dignissimos delectus harum, ut molestias illo officiis labore nam expedita minima.'		,	0	,	66	,	TRUE	, NOW(), NOW()),
+(74 ,	'' , 4,		''		,		'December 25, 2018'		,		'Do you even lift?'		,	3	,	67	,	TRUE	, NOW(), NOW()),
+(75 ,	'' , 5,		''		,		'December 26, 2018'		,		'Natus porro provident itaque! Dolorem ea cumque voluptate dignissimos molestias rem tenetur ad commodi, tempora explicabo excepturi dolores aperiam. Iure, ea esse?'		,	2	,	68	,	TRUE	, NOW(), NOW()),
+(76 ,	'' , 5,		''		,		'January 15, 2018'		,		'SO MUCH ENERGY'		,	0	,	69	,	TRUE	, NOW(), NOW()),
+(77 ,	'' , 5,		''		,		'January 23, 2018'		,		'My life has completely transformed for the better after switching from almond milk to GM milk.' 		,	2	,	70	,	TRUE	, NOW(), NOW()),
+(78 ,	'' , 5,		''		,		'February 5, 2018'		,		'Suprisingly tasty. Makes for a great late night snack.'		,	0	,	71	,	TRUE	, NOW(), NOW()),
+(79 ,	'' , 4,		''		,		'February 27, 2018'		,		'Itaque, excepturi dolor dolorem quam sunt doloremque, illum debitis totam qui nisi nemo facilis ex ad odit ut quisquam quae libero maxime.'		,	0	,	72	,	TRUE	, NOW(), NOW()),
+(80 ,	'' , 3,		'Porro, totam illum'		,		'March 8, 2018'		,		'Accusamus vitae numquam voluptatem totam, dolores facere unde fugit atque eos! Beatae non minima repellendus quaerat explicabo modi suscipit incidunt dolorum ab?'		,	1	,	73	,	TRUE	, NOW(), NOW()),
+(81 ,	'' , 4,		''		,		'March 12, 2018'		,		'Aren''t all forks edible?'		,	2	,	74	,	TRUE	, NOW(), NOW()),
+(82 ,	'' , 5,		'Eco Friendly'		,		'March 20, 2018'		,		'I purchased these for a party I hosted last weekend and they were a hit with our guests! Not only are they sustainable and eco friendly but they''re a great conversation starter. Just wish they offered more colors!'		,	2	,	74	,	TRUE	, NOW(), NOW()),
+(83 ,	'' , 3,		''		,		'April 21, 2018'		,		'Deserunt enim sequi culpa fuga? Animi laboriosam non architecto provident, iure vero enim impedit commodi debitis quae hic aliquam, maxime numquam id.'		,	0	,	74	,	FALSE	, NOW(), NOW()),
+(84 ,	'' , 5,		'Great customer service'		,		'April 30, 2018'		,		'The boxes we purchased were all a fork short. We contacted the seller and he immediately offered to replace or refund our order. The forks are great quality and we ended up keeping them but the customer servie exceeded our expectations. Will buy again.'		,	3	,	74	,	FALSE	, NOW(), NOW()),
+(85 ,	'' , 4,		''		,		'May 18, 2018'		,		'I use this every day at the gym. Easy to clean, hard to forget!'		,	1	,	75	,	FALSE	, NOW(), NOW()),
+(86 ,	'' , 5,		'LOVE LOVE LOVE.'		,		'June 13, 2018'		,		'Perfect for holding my gluten-free water during hikes. RECOMMEND 10/10'		,	2	,	75	,	FALSE	, NOW(), NOW()),
+(87 ,	'' , 1,		'needs better packaging'		,		'August 1, 2018'		,		'box came damaged'		,	2	,	75	,	FALSE	, NOW(), NOW()),
+(88 ,	'' , 3,		''		,		'August 17, 2018'		,		'decent. just wish it came with water.'		,	0	,	75	,	FALSE	, NOW(), NOW()),
+(89 ,	'' , 5,		'Convenient'		,		'September 2, 2018'		,		'Theres no need to cook the water! Just add water and drink. By far the most revolutionary product of our time.'		,	3	,	75	,	FALSE	, NOW(), NOW()),
+(90 ,	'' , 5,		''		,		'September 9, 2018'		,	'	I love boxed water, just add water!!!! Wish they sold them in bulk.' 		,	0	,	75	,	FALSE	, NOW(), NOW()),
+(91 ,	'' , 4,		''		,		'September 21, 2018'		,		'Ex soluta enim corporis quisquam, est a consequuntur totam harum aut iste, nesciunt nobis ullam vero dolores autem deleniti accusantium. Corporis, at.'		,	0	,	75	,	FALSE	, NOW(), NOW()),
+(92 ,	'' , 5,		''		,		'September 28, 2018'		,		'so darn cute! the colors are bright, good quality for the price.'		,	2	,	76	,	FALSE	, NOW(), NOW()),
+(93 ,	'' , 2,		''		,		'September 29, 2018'		,		'So cute but unfortunately mine arrived broken' 		,	0	,	76	,	FALSE	, NOW(), NOW()),
+(94 ,	'' , 5,		''		,		'October 22, 2018'		,		'the perfect companion to talk to when you get lonely'		,	0	,	76	,	FALSE	, NOW(), NOW()),
+(95 ,	'' , 5,		''		,		'October 23, 2018'		,		'Quas hic dolore enim explicabo eos veritatis magni impedit architecto quaerat, esse quibusdam nemo labore beatae saepe sed velit nisi dignissimos qui?'		,	0	,	77	,	FALSE	, NOW(), NOW()),
+(96 ,	'' , 4,		''		,		'December 1, 2018'		,		'Deserunt totam cupiditate amet, debitis, blanditiis, quos rerum vero illum pariatur quae quibusdam architecto. Atque, amet. Corporis possimus architecto ipsum dolore reprehenderit.'		,	2	,	78	,	FALSE	, NOW(), NOW()),
+(97 ,	'' , 4,		''		,		'December 15, 2018'		,		'The color is more of a salmon, but it goes well with my chartreuse Flamingos.'		,	0	,	79	,	FALSE	, NOW(), NOW()),
+(98 ,	'' , 5,		''		,		'December 28, 2018'		,		'Cumque numquam possimus culpa eum, est esse minus sint sed earum illo eveniet voluptates tenetur dicta nemo maxime animi magni nostrum in?'		,	2	,	80	,	FALSE	, NOW(), NOW()),
+(99 ,	'' , 5,		''		,		'December 30, 2018'		,		'Perfect for scaring your in-laws from an over extended stay.'		,	0	,	81	,	FALSE	, NOW(), NOW()),
+(100, '' , 4,		''		,		'December 31, 2018'		,		'The whackiest weed whacker on Sequoia.'		,	0	,	82	,	FALSE	, NOW(), NOW()),
+(101, '' , 3,		''		,		'January 9, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quo nostrum soluta consequatur, mollitia qui? Illum ex vitae repudiandae esse, provident ab officia aliquam. Inventore sed illum consectetur enim laborum?'		,	1	,	83	,	FALSE	, NOW(), NOW()),
+(102, '' , 2,		'Hic odio similique officia temporibus	'	,		'January 19, 2018'		,		'Sit sapiente modi amet ipsam voluptatum dolorem, commodi, temporibus maxime a illo veniam sint sed ad, cumque eius. Ipsum autem necessitatibus maxime.'		,	0	,	84	,	FALSE	, NOW(), NOW()),
+(103, '' , 1,		''		,	'	January 31, 2018'		,		'Voluptate architecto optio itaque fugit rem mollitia enim, veniam error illum! Necessitatibus doloremque consequatur dolor dignissimos recusandae? Ipsum aperiam harum fugiat alias?'		,	0	,	85	,	FALSE	, NOW(), NOW()),
+(104, '' , 3,		'Neque eius animi asperiores maiores'		,		'February 1, 2018'		,		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, odit. Consectetur provident incidunt, sint architecto maiores nulla dicta voluptate! Sed eum obcaecati fugiat consectetur sit incidunt doloremque similique numquam quos!'		,	1	,	86	,	FALSE	, NOW(), NOW()),
+(105, '' , 4,		''		,		'''March 15, 2018'		,		'Tempora, vel. Perferendis nesciunt nostrum laudantium doloribus. Optio repudiandae voluptatibus veritatis animi, minima ipsa rem consequuntur. Qui harum eaque aliquid voluptatem et?'		,	2	,	87	,	FALSE	, NOW(), NOW()),
+(106, '' , 3,		''		,		'May 13, 2018'		,		'Nobis, nihil facere? Beatae placeat voluptatibus dolore nihil, facere voluptas sint facilis consectetur veniam, dolorum pariatur quod eveniet porro ab. Sunt, repudiandae.'		,	0	,	88	,	FALSE	, NOW(), NOW()),
+(107, '' , 5,		''		,		'May 20, 2018'		,		'Officiis amet accusamus molestiae facere, perferendis esse necessitatibus eum dolor consequuntur quis! Praesentium cupiditate distinctio aspernatur ratione, nisi eos! Magni, asperiores dicta.'		,	0	,	89	,	FALSE	, NOW(), NOW()),
+(108, '' , 3,		''		,		'May 22, 2018'		,		'Maxime rem ipsum sint. Consequuntur commodi a harum voluptates repellendus magnam obcaecati sed ea nemo voluptas magni reiciendis, sunt accusamus. Minus, similique?'		,	3	,	90	,	FALSE	, NOW(), NOW()),
+(109, '' , 2,		''		,		'May 26, 2018'		,		'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat repellat eos ex dignissimos deserunt, debitis iste? Maxime hic odio aperiam perspiciatis iste culpa ratione quia eaque, reiciendis cum molestias! Similique'		,	0	,	91	,	FALSE	, NOW(), NOW()),
+(110, '' , 4,		'Atque ducimus similique expedita deleniti'		,		'August 9, 2018'		,		'Mollitia possimus dolorum nam fugiat libero alias sapiente deserunt ipsam quis sit qui voluptatum veniam placeat quam consectetur, tempore facilis itaque unde.'		,	3	,	92	,	FALSE	, NOW(), NOW()),
+(111, '' , 5,		'Possimus maxime ab doloribus porro'		,		'August 22, 2018'		,		'Perferendis doloremque ex unde fugit impedit, omnis cumque? Deserunt officiis fugit, sapiente nostrum itaque tempora cumque aperiam id in. Sunt, libero quos?'		,	0	,	93	,	FALSE	, NOW(), NOW()),
+(112, '' , 3,		'Accusamus asperiores modi odit'		,		'August 26, 2018'		,		'Reiciendis necessitatibus ipsa tenetur eius unde officia. Voluptate, alias asperiores corporis quia quo, ullam mollitia nam cum, reprehenderit officiis aliquid laborum sed!'		,	1	,	94	,	FALSE	, NOW(), NOW()),
+(113, '' , 2,		'Atque ducimus similique expedita deleniti'		,		'August 29, 2018'		,		'Obcaecati animi sed rerum exercitationem aliquam neque incidunt expedita aspernatur impedit iure tempora iste, aperiam eaque est unde voluptates, quis qui magnam?'		,	0	,	95	,	FALSE	, NOW(), NOW()),
+(114, '' , 4,		'Molestias debitis'		,		'September 2, 2018'		,		'Maiores natus nihil similique iure fugit maxime deleniti iste ducimus. Soluta labore dicta neque corporis ea fuga iure eum ipsa id cupiditate.'		,	1	,	96	,	FALSE	, NOW(), NOW()),
+(115, '' , 5,		'Provident consequatur dolores aliquid, accusantium eveniet corporis nobis'		,		'September 14, 2018	'	,		'Assumenda illo ducimus cum, laboriosam distinctio voluptatibus reprehenderit iure vel temporibus saepe, nulla a aspernatur, cupiditate tempora quos est tempore nisi quisquam!'		,	0	,	97	,	FALSE	, NOW(), NOW()),
+(116, '' , 5,		''		,		'September 15, 2018'		,		'Debitis, ullam. Numquam, aliquid culpa magnam, voluptates deleniti odit sequi, perspiciatis beatae earum adipisci tenetur animi veritatis doloremque sint itaque. Cumque, placeat?'		,	0	,	98	,	FALSE	, NOW(), NOW()),
+(117, '' , 4,		''		,		'September 26, 2018'		,		'My HOA keeps complaining, but I WILL NOT RESEED MY LAWN SUZY!'		,	1	,	99	,	FALSE	, NOW(), NOW()),
+(118, '' , 5,		''		,		'September 28, 2018'		,		'Vel aperiam illo eos reprehenderit laborum, nulla delectus quos at corrupti maxime architecto a, vero odit animi omnis quidem. Quas, quo nobis!'		,	0	,	100	,	FALSE	, NOW(), NOW());
