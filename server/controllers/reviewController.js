@@ -39,12 +39,15 @@ const ReviewCtrl = {
     };
     ReviewModel.put (body, (err, data) => {
       (err) && res.send(err).status(400);
-      res.send(data).status(201);
+      res.send(data).status(200);
     })
   },
 
   delete: (req, res) => {
-    
+    ReviewModel.delete(req.params.id, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(200);
+    })
   }
 };
 

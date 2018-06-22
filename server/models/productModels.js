@@ -44,6 +44,20 @@ const ProductModel = {
       console.log('error with updating review,', err);
       callback(err, null);
     });
+  },
+
+  delete: (id, callback) => {
+    db.query(`
+      DELETE FROM products WHERE id=${id}
+    `)
+    .spread((data) => {
+      console.log('delete product successful');
+      callback(null, data[1]);
+    })
+    .catch(err => {
+      console.log('error with deleting product,', err);
+      callback(err, null);
+    });
   }
 }
 

@@ -59,6 +59,20 @@ const ReviewModel = {
       console.log('error with updating review,', err);
       callback(err, null);
     });
+  },
+
+  delete: (id, callback) => {
+    db.query(`
+      DELETE FROM reviews WHERE id=${id}
+    `)
+    .spread((data) => {
+      console.log('delete review successful');
+      callback(null, data[1]);
+    })
+    .catch(err => {
+      console.log('error with deleting review,', err);
+      callback(err, null);
+    });
   }
 
   

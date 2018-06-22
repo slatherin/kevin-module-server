@@ -30,7 +30,10 @@ const ProductCtrl = {
   },
 
   delete: (req, res) => {
-
+    ProductModel.delete(req.params.id, (err, data) => {
+      (err) && res.send(err).status(400);
+      res.send(data).status(200);
+    })
   }
 };
 
