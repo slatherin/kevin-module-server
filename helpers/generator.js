@@ -22,7 +22,7 @@ const generatePosReivews = (i, noun1, adj1, noun2, adj2) => {
 };
 
 
-const stream = fs.createWriteStream('../review_data.csv');
+const stream = fs.createWriteStream('../reviews.csv');
 
 for (let i = 0; i < 100; i++) {
   let data = generatePosReivews(i, posNouns[faker.random.number({min: 0, max: 5000})], posAdj[faker.random.number({min: 0, max: 5000})], posNouns[faker.random.number({min: 0, max: 5000})], negAdj[faker.random.number({min: 0, max: 5000})]);
