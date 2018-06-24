@@ -1,10 +1,9 @@
-const faker = require('faker');
 const sentencer = require('sentencer');
 const opinionLexicon = require('opinion-lexicon');
 
 const getNegativeNouns = () => {
   let negatives = [];
-  while (negatives.length < 5000) {
+  while (negatives.length < 10000) {
     let noun = sentencer.make("{{ noun }}");
     (opinionLexicon.isNegative(noun)) && negatives.push(noun);
   }
@@ -13,7 +12,7 @@ const getNegativeNouns = () => {
 
 const getPositiveNouns = () => {
   let positives = [];
-  while (positives.length < 5000) {
+  while (positives.length < 10000) {
     let noun = sentencer.make("{{ noun }}");
     (opinionLexicon.isPositive(noun)) && positives.push(noun);
   }
@@ -22,7 +21,7 @@ const getPositiveNouns = () => {
 
 const getNegativeAdjectives = () => {
   let negatives = [];
-  while (negatives.length < 5000) {
+  while (negatives.length < 10000) {
     let adjective = sentencer.make("{{ adjective }}");
     (opinionLexicon.isNegative(adjective)) && negatives.push(adjective);
   }
@@ -31,7 +30,7 @@ const getNegativeAdjectives = () => {
 
 const getPositiveAdjectives = () => {
   let positives = [];
-  while (positives.length < 5000) {
+  while (positives.length < 10000) {
     let adjective = sentencer.make("{{ adjective }}");
     (opinionLexicon.isPositive(adjective)) && positives.push(adjective);
   }
