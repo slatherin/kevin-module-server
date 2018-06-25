@@ -32,7 +32,7 @@ export default class Reviews extends Component {
   };
 
   getProductReviews() {
-    axios.get('http://ec2-34-235-139-152.compute-1.amazonaws.com:2106/api/reviews/' + this.state.id)
+    axios.get('/api/reviews/' + this.state.id)
     .then(({ data }) => {
       this.setState({ reviews: data });
     })

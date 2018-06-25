@@ -7,15 +7,12 @@ const Product = db.define(
     id: {
       type: Sequelize.INTEGER,
       primaryKey: true,
-      allowNull: false
+      autoIncrement: true
     },
     name: {
       type: Sequelize.STRING,
       allowNull: false
     }
-  },
-  {
-    timestamps: false
   }
 );
 
@@ -26,7 +23,6 @@ const Review = db.define(
       type: Sequelize.INTEGER,
       primaryKey: true,
       autoIncrement: true
-      // allowNull: false,
     },
     customer_name: {
       type: Sequelize.STRING,
@@ -52,17 +48,10 @@ const Review = db.define(
       type: Sequelize.INTEGER,
       allowNull: false
     },
-    product_id: {
-      type: Sequelize.INTEGER,
-      allowNull: false
-    },
     verified: {
       type: Sequelize.BOOLEAN,
       allowNull: false
     }
-  },
-  {
-    timestamps: false
   }
 );
 
@@ -74,6 +63,7 @@ db.sync({ force: false })
   .catch(err => console.log("Error creating tables", err));
 
 module.exports = {
+  db, 
   Product,
   Review
 };
