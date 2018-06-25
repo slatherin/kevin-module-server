@@ -5,7 +5,6 @@ const cors = require('cors');
 const helmet = require('helmet');
 const { Router } = require('./router');
 require('../db/models/');
-const { createReviews } = require('../helpers/generator.js')
 
 const corOpts = {
   "origin": "*",
@@ -25,9 +24,6 @@ app.use(express.static(path.join(__dirname, '../static')));
 app.use('/api', Router);
 
 const PORT = 2106;
-
-// const reviews = createReviews();
-console.log('Generated reviews: ', reviews);
 
 app.listen(PORT, (err) => {
   err ? console.log('Error connecting to server: ', err) : console.log('Successfully connected to server on port', PORT);
